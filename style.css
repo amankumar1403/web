@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Playfair+Display:ital@1&family=Poppins:ital,wght@1,300;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(112, 86, 86);
+    font-family: 'Gulzar', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Varela Round', sans-serif;
+height: 123vh;
+transition: transform 0.3s ease-in;
+background-color: #342f2f;
+}
+.sidebar nav{
+    padding: 45px;
+    background-color: #342e2e;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(207 201 201);
+   
+}
+
+
+.main{
+   /* background-color: yellow;*/
+    width: 90vw;
+
+}
+.container{
+    display: flex;
+    background-color: #ffffff;
+    background-image: url("port.png");
+    /* background: whitesmoke; */
+    /* background-blend-mode: darken; */
+    /* background-size: cover; */
+    background-repeat: space;
+    
+}
+.infoContainer{
+  /* background-color: rgb(113, 207, 13); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.hello{
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: fangsong;
+    font-size: 77px;
+    margin-left: 596px;
+    margin-top: 211px;
+    
+    
+}
+.name{
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 207px;
+    margin-top: 185px;
+    text-decoration: underline;
+}
+.about{
+    font-size: 57px;
+    text-align: -webkit-center;
+    margin-left: 154px;
+}
+.moreabout{
+    margin-top: 23px
+    font-size: 2em;
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 207px;
+    font-size: 39px;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+    margin-bottom: 643px;
+    margin-left: 687px;
+    margin-top: 31px;
+
+}
+.btn-sm{
+    font-size: 31px;
+    padding: 7px 13px;
+    margin: 59px 0;
+    margin-left: 971px;
+   
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+
+
+
+}
+
+.devPic img{
+    height: 58vh;
+}
+.contactform{
+    padding: 0 34px;
+    
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    margin: 88px
+    text-align-last: center;
+    font-size: 47px;
+    /* margin: 160px 40px; */
+
+}
+.contactform h1{
+    font-family: 'Roboto', sans-serif;
+    /* padding: 12px 0; */
+    text-align-last: center;
+    font-size: 63px;
+    outline: outset;
+    font-family: ui-monospace;
+    display: -webkit-inline-box;
+    margin-left: 630px;
+    margin-top: 46px;
+
+
+}
+
+ .contactform form div{
+        
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+
+    
+    
+    }
+
+.contactform form div input{
+   width: 51vw;
+   border-radius: 5px;
+   margin: 37px 0 0 0;
+    padding: 21px;
+    font: message-box;
+    /* font-size: xx-large */
+    border: dotted;
+    margin: auto;
+}
+.contactform form {
+   margin: 0 40px;
+   margin: 164px 40px
+
+}
+
+#emailHelp{
+    font-size: 24px;
+    color: midnightblue;
+    margin: 7px 269px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+    margin-right: 595px;
+    
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+    margin-top: 142px;
+    margin-left: auto;
+    scale: 1.9;
+
+
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.blogContainer{
+    margin: 0 88px;
+}
+h1{
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    margin: 23px;
+
+}
+p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.intro h2{
+    font-size: 101px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color-rendering: optimizeQuality;
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    text-align-last: center;
+
+
+}
+
+.intro p{
+    font-family: 'Roboto', sans-serif;
+    /* margin: 12px; */
+    font-size: 72px;
+    /* -webkit-font-smoothing: subpixel-antialiased; */
+    /* color-rendering: optimizeQuality; */
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    /* text-align-last: center; */
+};
+    
+
+
+
+}
+.intro{
+    margin: 0 88px;
+    margin-top: -12px;
+ 
+}
+
+.skillItem{
+    /* display: flex;  */
+    /* align-items: center; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-weight: 900; */
+    font-size: 76px;
+    /* text-align: center; */
+    margin-left: 1017px;
+}
+.skillcontainer{
+    padding: 12px;
+
+
+}
+
+.skill{
+    /* width: 256px; */
+    /* height: 6px; */
+    /* background-color: brown; */
+    /* border: 2px solid black; */
+}
+
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+    
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    /* width: 75px; */
+    /* background-color: yellow; */
+}
+
+.sidebarGo{
+    
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+
+ @media (max-width: 1615px) { 
+*{
+    /* background-color: rgb(240, 137, 137); */
+ }
+ .devPic{
+    display: none;
+ }
+
+ /* .sidebar{
+    
+        transform: translate(-443px, 0px);
+        position: absolute;
+ } */
+.button{
+    font-size: 6px;
+}
+ .ham{
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+ 
+}
+.cross{
+    
+    margin-left: 216px;
+    margin-top: 10px;
+    mix-blend-mode: color-burn;
+
+}
+.intro, .blogContainer, .contactform{
+    /* margin: 50px 8px; */
+    margin-left: 499px;
+    /* margin: 379px 8px; */
+    /* margin-top: 258px; */
+}
+.form-check-label{
+
+    margin-left: -438px;
+    margin-top: 34px;
+
+
+}
+
+.form-lable{
+
+    margin-inline: auto;
+    text-decoration-line: underline;
+    /* outline-style: dotted; */
+    font-style: italic;
+    font-weight: bolder;
+    padding: inherit;
+
+
+}
+/* .port{
+    
+/* } */
+.contactform form div input {
+    width: 53vw;
+    border-radius: 5px;
+    margin: 37px 0 0 0;
+    padding: 21px;
+    font: message-box;
+    font-size: xx-large;
+    border: dotted;
+    margin: auto;
+}
+
+.softskill{
+    text-align-last: center;
+    font-size: 56px;
+}
+.aman{
+    font-size: 66px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: -webkit-center;
+    margin-left: 466px;
+}
+.yoyo{
+    font-size: 70px;
+    margin-left: 539px;
+}
